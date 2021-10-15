@@ -1,18 +1,22 @@
 [
   {
     "name": "Mario",
-    "desc": "Issa me Mario!"
+    "desc": "Issa me Mario!",
+    "image": "/images/MarioPagination.png"
   },
   {
     "name": "Peach",
-    "desc": "Save me!"
+    "desc": "Save me!",
+    "image": "/images/PeachPagination.png"
   },
   {
     "name": "Luigi",
-    "desc": "Okie dokie"
+    "desc": "Okie dokie",
+    "image": "/images/LuigiPagination.png"
   },
   {
     "name": "Daisy",
-    "desc": "Sweet"
+    "desc": "Sweet",
+    "image": "/images/DaisyPagination.png"
   }
 ]

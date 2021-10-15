@@ -3,9 +3,8 @@
   padding: 0;
 }
 main {
-  max-width: 48rem;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  width: 90%;
 }
 
 nav {
@@ -22,4 +21,14 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
+}
+.imgsize {
+  width: 250px;
+  height: 400px;
+}
+
+.gallerypiece {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
 }

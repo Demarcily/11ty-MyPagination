@@ -16,7 +16,10 @@
   <main>
     <div class="container">
       {% for gal in gallery %}
-        <li><a href="/gallery/{{ gal.name | slug }}">{{ gal.name }}</a></li>
+        <div class="gallerypiece">
+          <img class="imgsize" src="{{ gal.image }}" alt="{{ gal.name }}">
+          <li><a href="/gallery/{{ gal.name | slug }}">{{ gal.name }}</a></li>
+        </div>
       {% endfor %}
     </div>
     {{ content | safe }}
