@@ -13,14 +13,18 @@
     
     <li><a href="/Om-oss">Om oss</a></li>
   </nav>
-  <main class="container">
-    {% for gal in gallery %}
-      <li><a href="/gallery/{{ gal.name | slug }}">{{ gal.name }}</a></li>
-    {% endfor %}
+  <main>
+    <div class="container">
+      {% for gal in gallery %}
+        <li><a href="/gallery/{{ gal.name | slug }}">{{ gal.name }}</a></li>
+      {% endfor %}
+    </div>
+    {{ content | safe }}
   </main>
   <footer>
-
+    
+    <p>test</p>
   </footer>
-  {{ content | safe }}
+ 
 </body>
 </html>

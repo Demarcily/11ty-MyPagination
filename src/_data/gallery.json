@@ -1,14 +1,18 @@
 [
   {
-    "name": "Mario"
+    "name": "Mario",
+    "desc": "Issa me Mario!"
   },
   {
-    "name": "Peach"
+    "name": "Peach",
+    "desc": "Save me!"
   },
   {
-    "name": "Luigi"
+    "name": "Luigi",
+    "desc": "Okie dokie"
   },
   {
-    "name": "Daisy"
+    "name": "Daisy",
+    "desc": "Sweet"
   }
 ]
