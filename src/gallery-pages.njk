@@ -1,11 +1,13 @@
 ---
 layout: base.njk
 pagination:
-    data: gallery
-    size: 1
-    alias: gal
+  data: gallery
+  size: 1
+  alias: gal
 permalink: "gallery/{{ gal.name | slug }}/"
 ---
-
-<h1>{{gal.name}}</h1>
-<p>{{gal.desc}}</p>
+<div class="textwindow">
+  <h1>{{ gal.name }}</h1>
+  <p>Age: {{ gal.age }}</p>
+  <p>"{{ gal.desc }}"</p>
+</div>

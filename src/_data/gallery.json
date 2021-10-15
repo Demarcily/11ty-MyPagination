@@ -1,21 +1,25 @@
 [
   {
     "name": "Mario",
+    "age": "24",
     "desc": "Issa me Mario!",
     "image": "/images/MarioPagination.png"
   },
   {
     "name": "Peach",
+    "age": "24",
     "desc": "Save me!",
     "image": "/images/PeachPagination.png"
   },
   {
     "name": "Luigi",
+    "age": "24",
     "desc": "Okie dokie",
     "image": "/images/LuigiPagination.png"
   },
   {
     "name": "Daisy",
+    "age": "20",
     "desc": "Sweet",
     "image": "/images/DaisyPagination.png"
   }
