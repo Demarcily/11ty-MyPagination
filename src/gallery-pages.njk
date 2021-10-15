@@ -1,0 +1,10 @@
+---
+layout: base.njk
+pagination:
+    data: gallery
+    size: 1
+    alias: gal
+permalink: "gallery/{{ gal.name | slug }}/"
+---
+
+<h1>Their name is {{gal.name}}</h1>

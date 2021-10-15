@@ -9,3 +9,9 @@ nav {
   align-items: center;
   list-style: none;
 }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}

@@ -13,8 +13,10 @@
     
     <li><a href="/Om-oss">Om oss</a></li>
   </nav>
-  <main>
-
+  <main class="container">
+    {% for gal in gallery %}
+      <li><a href="/gallery/{{ gal.name | slug }}">{{ gal.name }}</a></li>
+    {% endfor %}
   </main>
   <footer>
 
